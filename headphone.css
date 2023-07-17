@@ -1,0 +1,109 @@
+*{
+    padding:0px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.container{
+    background: linear-gradient(144deg, rgba(255,255,255,1) 62%, rgba(255,0,0,0.7483368347338936) 62%);
+    width:100vw;
+    height:100vh;
+    transition: all 0.35s linear;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    backdrop-filter: blur(0.5rem);
+    border-bottom: 0.125rem rgba(197, 197, 197, 0.548) solid;
+}
+.nav-text{
+    display: flex;
+    margin:1.2rem 6rem 0rem 0rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.main-logo{
+    width:3rem;
+    margin:0rem 0rem 0rem 3rem;
+}
+.home{
+    padding-right: 2rem;
+    color: rgba(255,0,0,0.7483368347338936);
+    transition: color 0.25s linear;
+}
+.partners{
+    padding-right: 2rem;
+}
+.aboutus{
+    padding-right: 2rem;
+}
+.projects{
+    padding-right: 2rem;
+}
+.fluid{
+    display: flex;
+}
+.photo1{
+    overflow: hidden;
+}
+.pic1{
+    width:16rem;
+    margin:3rem 0rem 0rem 7rem;
+    transition: all 0.35s linear;
+    transform: translateY(6rem);
+    opacity: 0;
+}
+.text1{
+    padding-top:4rem;
+    font-size: 4rem;
+    font-family: impact;
+    transition: all 0.2s linear;
+    transform: translateY(2rem);
+    opacity: 0;
+}
+.text2{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    transition: all 0.2s linear;
+    transform: translateY(2rem);
+    opacity: 0;    
+}
+.red{
+    font-family: impact;
+    font-size: 5rem;
+    color: transparent;
+    -webkit-text-stroke: 0.125rem #ff0000;
+    transition: -webkit-text-stroke 0.25s linear;
+    transform: translateY(2rem);
+    opacity: 0;  
+    transition: transform 0.2s linear;
+}
+.inside{
+    padding:1rem 0rem 0rem 8rem;
+    overflow: hidden;
+}
+.img1, .img2, .img3, .img4{
+    width:2rem;
+}
+.more-headphone{
+    display: flex;
+    justify-content: space-evenly;
+    gap:1rem;
+    width:20vw;
+    margin:2rem 0rem 0rem 8rem;
+}
+.headphone{
+    text-align: center;
+    padding:0.5rem;
+    background-color: #30303031;
+    backdrop-filter: blur(0.5rem);
+    border-radius: 0.3rem;
+    transition: all 0.5s;
+}
+.headphone:hover{
+    background-color: #0000007c;
+}
+.active{
+    background-color: #0000007c;
+}
